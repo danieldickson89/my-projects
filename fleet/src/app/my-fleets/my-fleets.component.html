@@ -1,0 +1,12 @@
+<div class="container">
+  <ul class="list-group">
+    <a href="#" *ngFor="let fleet of mockFleets" class="list-group-item list-group-item-action row">
+      <div *ngIf="fleet.newMessages > 0" class="col">
+        {{fleet.name}} ({{ fleet.newMessages }} new messages)
+      </div>
+      <div *ngIf="fleet.newMessages == 0" class="col">
+        {{fleet.name}}
+      </div>
+    </a>
+  </ul>
+</div>
