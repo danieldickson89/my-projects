@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    color: #34cc20;
+}
+
+a:hover {
+    color: black;
+}
+
+.side-navigation-container {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.spacer {
+    height: 900px;
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
